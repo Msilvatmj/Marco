@@ -1,8 +1,26 @@
 
-.content{
-background-image: none;
-position: static;
-border-left:salmon;
-border-left:salmon;
-border-width: 0cm;
-}
+/* .content{
+    background-image: none;
+    position: static;
+    border-left:salmon;
+    border-left:salmon;
+    border-width: 0cm;
+    } */
+    
+    
+
+    .bg {
+
+        background-image: url("imagens/acores.png");
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      } 
+  
+      .chtml{
+        background-image: url("imagens/açores.jpg");
+        height: 100%; 
+        position: left;
+        size: 100%;
+      }

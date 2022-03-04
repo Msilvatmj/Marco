@@ -2,6 +2,7 @@
 <html lang="pt-PT">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="just.css"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,8 +41,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="pullovers.html">Pullovers</a>
     
-              <li class="nav-item">
-                <a class="nav-link" href="calças.html">Calças</a>
+           
     
               <li class="nav-item">
                   <a class="nav-link" href="sobre.html">Sobre</a>
@@ -67,32 +67,38 @@
           <div class="row">
             <div class="col">
               
-                <img src="/imagens/açores.jpg"  style="width:100% fit-content " >
+                <img src="/imagens/açores.jpg"  style="width:100% fit-content" >
               
             </div>
             <div class="col">
               <div class="contact-box">
                 <div class="left"> </div>
                       <form action="https://formsubmit.co/Marcossilvabalsasma@gmail.com" method="post" name="form"> 
+                        
                 <div class="right">
                   
                           <input type="hidden" name="_template" value="table"> <!--Textura do email-->
+
                   <input type="text" name="Nome Completo"   class="field" placeholder="Nome Completo" id="contact-name" onkeyup="validateName()" required>
-                          <span id="nome-erro"></span>
-  
+                          <span id="nome-erro"></span><br>
+                          <div class="separador" style="margin-top: 20px"></div>
+
                   <input type="text" name="Email" class="field" placeholder="Email" required>
-                          <span id="email-erro"></span>
-  
+                          <span id="email-erro"></span><br>
+                          <div class="separador" style="margin-top: 20px"></div>
+
                   <input type="text" name="Contacto" class="field" placeholder="Telefone" required>
                           <span id="numero-erro"></span>
-  
+                          <div class="separador" style="margin-top: 20px"></div>
+                          
                   <textarea placeholder="Mensagem" class="input-itemtexarea" name="Mensagem" id="menssagem" style="display: block"></textarea>
                           <span id="mensagem-erro"> </span>
-         
+                          <div class="separador" style="margin-top: 20px"></div>
                   <button type="submit" value="send" class="submit btn-danger ">Enviar</button> 
                           <span id="submit-erro"> </span>
                       
                 </div>
+              
                   </form>
               </div>
             </div>  
@@ -106,48 +112,34 @@
             
              
                 </div>
-                <section class="footer">
+                <div class="separador" style="margin-top: 100px"></div>
+                <section class="footer" style="position: flex;">
         
                   <div class="box-container">
               
                      
               
                 
-          <footer id="sticky-footer" class="flex-shrink-0 py-6 bg-dark text-white-50">
-                        <div class="container text-center">
-                          <large> 
-                            <a>Marcossilvabalsasma@gmail.com</a>
-                          </large>
-                        </div>
-                          <!-- 
-                        <div class="box">
-                          <h3> Contactos</h3>
-                          <a href="#"> <i class="fas fa-phone"></i> +351 913392301 </a>
-  
-                          <a href="#"> <i class="fas fa-envelope"></i> Marcossilvabalsasma@gmail.com </a>
+                    <div class="bg"></div>
+
+                    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+                      <div class="container text-center">
+                        <large> 
+                          <a>Marcossilvabalsasma@gmail.com</a>
+                        </large>
+                      </div>
+                      
+                  
+                      <div class="container">
+                        <div class="row">
+                          <div class="col">
+                            <center> 
+                            <a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i> instagram </a>
+                          </center>
                           </div>
                           
-                          <div class="box">
-                            <h3>Hiperligações</h3>
-                
-                            <a href="index.html">Inicio</a>
-                            <a href="sobre.html">Sobre</a>
-                            <a href="contacto.html">Contacto</a>
-                        </div>
-                      -->
-                        
-          
-              
                       
-              
-                     <div class="box">
-                       
-                         <center>
-                          <a href="https://www.facebook.com/me/"> <i class="fab fa-facebook"></i>facebook </a>
-                          <a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i> instagram </a>
-                        </center>
-                      </div> 
-                       
+                     
                     </footer>
     </body>
     </html>
