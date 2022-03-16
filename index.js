@@ -2,6 +2,7 @@ const { constants } = require('buffer')
 const express = require('express')
 const path = require('path')
 const app = express()
+const connection = require('./public/scripts/dbconnection.js');
  
 app.use(express.static('./public'))
 
